@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"name": "Blue Cat Inc.",
+		"top_up": 71,
+		"email_status": false
+	},
+	{
+		"id": 1,
+		"name": "Red Horse Inc.",
+		"top_up": 55,
+		"email_status": true
+	}
+]

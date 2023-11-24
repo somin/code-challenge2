@@ -9,7 +9,14 @@ ruby challenge.db
 
 Assumptions
 ===========
-* There was no specification on how to handle errors so I assumed that TODO
+* There was no specification on how to handle errors so I assumed that I should:
+  * Print critical errors and raise the exception ending the program with as much information as possible
+  * Print an error message and try to recover from things that might allow us to continue processing.
+    This could include things like one user missing/invalid fields
+* I assumed company IDs had to be unique and that using multiple with the same ID would be invalid. 
+  When this happens I just ignore the second company.
+* I assumed it was ok for users to have the same id and name/email. As such this is not validated but
+  could be in a different system with stricter requirements
 
 Notes
 =====

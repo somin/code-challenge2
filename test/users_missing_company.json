@@ -4,9 +4,9 @@
 		"first_name": "Tanya",
 		"last_name": "Nichols",
 		"email": "tanya.nichols@test.com",
-		"company_id": 12333331,
+		"company_id": 1233331,
 		"email_status": true,
-		"active_status": false,
+		"active_status": true,
 		"tokens": 23
 	},
 	{
@@ -18,5 +18,5 @@
 		"email_status": false,
 		"active_status": true,
 		"tokens": 96
-	},
+	}
 ]
